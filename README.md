@@ -17,19 +17,20 @@ file. Cards import as new, with no review history.
 | General Chemistry | 248 | MileDown |
 | Organic Chemistry | 283 | MileDown |
 | Physics and Math | 305 | MileDown (301 notes), Tsunami (2 notes) |
-| Psych-Soc › 6A Sensing the Environment | 298 | MrPankow (204 notes), MileDown (28 notes), Bouras (17 notes) |
-| Psych-Soc › 6B Making Sense of the Environment | 496 | MrPankow (325 notes), MileDown (27 notes), Bouras (23 notes), Tsunami (2 notes) |
-| Psych-Soc › 6C Responding to the World | 123 | MrPankow (64 notes), MileDown (18 notes), Bouras (11 notes) |
-| Psych-Soc › 7A Individual Influences on Behavior | 619 | MrPankow (375 notes), MileDown (48 notes), Bouras (29 notes) |
-| Psych-Soc › 7B Social Processes and Behavior | 101 | MrPankow (66 notes), MileDown (3 notes), Bouras (2 notes) |
-| Psych-Soc › 7C Attitude and Behavior Change | 129 | MrPankow (79 notes), Bouras (7 notes) |
-| Psych-Soc › 8A-8B Self-Identity and Social Thinking | 179 | MrPankow (113 notes), MileDown (9 notes), Bouras (5 notes) |
-| Psych-Soc › 8C Social Interactions | 149 | Bouras (121 notes), MileDown (28 notes) |
-| Psych-Soc › 9A Social Structure and Culture | 116 | Bouras (98 notes), MileDown (18 notes) |
-| Psych-Soc › 9B-10A Demographics and Social Inequality | 128 | Bouras (106 notes), MileDown (21 notes) |
+| Psych-Soc › Sensation and Perception (6A) | 298 | MrPankow (204 notes), MileDown (28 notes), Bouras (17 notes) |
+| Psych-Soc › Cognition and Consciousness (6B) | 496 | MrPankow (325 notes), MileDown (27 notes), Bouras (23 notes), Tsunami (2 notes) |
+| Psych-Soc › Emotion and Stress (6C) | 123 | MrPankow (64 notes), MileDown (18 notes), Bouras (11 notes) |
+| Psych-Soc › Brain, Personality and Disorders (7A) | 619 | MrPankow (375 notes), MileDown (48 notes), Bouras (29 notes) |
+| Psych-Soc › Social Influence (7B) | 101 | MrPankow (66 notes), MileDown (3 notes), Bouras (2 notes) |
+| Psych-Soc › Learning and Attitude Change (7C) | 129 | MrPankow (79 notes), Bouras (7 notes) |
+| Psych-Soc › Identity and Social Perception (8A–8B) | 179 | MrPankow (113 notes), MileDown (9 notes), Bouras (5 notes) |
+| Psych-Soc › Social Interactions (8C) | 149 | Bouras (121 notes), MileDown (28 notes) |
+| Psych-Soc › Social Structure and Culture (9A) | 116 | Bouras (98 notes), MileDown (18 notes) |
+| Psych-Soc › Demographics and Inequality (9B–10A) | 128 | Bouras (106 notes), MileDown (21 notes) |
 | Psych-Soc › Research Methods and Statistics | 107 | Bouras (104 notes), MrPankow (2 notes) |
 
-The psych/soc subdecks follow the AAMC content categories, 6A (sensing the environment) through 10A (social inequality), plus research methods.
+The psych/soc subdecks are named by topic. The AAMC content category of each is in brackets, and every psych/soc card also
+carries it as the tag `Tsunami::Psych_Soc::<category>`.
 
 ## How it was made
 
@@ -46,10 +47,14 @@ The psych/soc subdecks follow the AAMC content categories, 6A (sensing the envir
   before and after text and the reason. 30 cards where the check was unsure are tagged `Tsunami::flagged` and left
   as they were.
 - **Duplicates removed.** 34 cards that repeated another card word for word were deleted.
+- **An example on every card.** 3,757 cards have a short, concrete example on the back, in its own row, that shows
+  the idea in action (a named study, a number, a molecule, an everyday scene). Each was written for this deck and
+  accepted by a second, independent check; the rest already give an example in their explanation.
 - **One consistent style.** Questions ("What is X?") became statements, long passages were trimmed with the extra detail
-  moved to the back, typos and broken formatting were fixed, and formulas use proper sub- and superscripts. All cards
-  share one note type (`Tsunami`) with a clean light and dark theme. Khan Academy and YouTube links sit in their own
-  row on the back.
+  moved to the back, typos and broken formatting were fixed, and formulas use proper sub- and superscripts. A card that
+  lists points shows the question on its own line and the points as a list underneath. All cards share one note type
+  (`Tsunami`: Text, Extra, Links, Example) with a clean light and dark theme. Khan Academy and YouTube links sit in their
+  own row on the back.
 
 ## Tags
 
