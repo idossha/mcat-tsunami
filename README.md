@@ -1,7 +1,7 @@
 # Tsunami: an MCAT Anki deck
 
 Tsunami is one MCAT Anki deck built from the two most-used free community decks, with every card checked for errors
-and restyled to one consistent layout. **4,162 notes, 5,362 cards** covering biochemistry, biology, general and
+and restyled to one consistent layout. **4,064 notes, 4,647 cards** covering biochemistry, biology, general and
 organic chemistry, physics and math, and psychology/sociology.
 
 **Download:** [`tsunami.apkg`](https://github.com/idossha/mcat-tsunami/releases/latest/download/tsunami.apkg) (326 MB, includes the images). In Anki: File › Import, then pick the
@@ -11,25 +11,25 @@ file. Cards import as new, with no review history.
 
 | Subdeck | Cards | From |
 |---|---:|---|
-| Biochemistry | 589 | MileDown (512 notes), Tsunami (1); 11 diagrams |
-| Biology | 890 | MileDown (599 notes), Tsunami (1); 35 diagrams |
-| Essential Equations | 233 | MileDown (91 notes), Tsunami (45); 10 diagrams |
-| General Chemistry | 312 | MileDown (244 notes), Tsunami (4); 9 diagrams |
-| Organic Chemistry | 410 | MileDown (283 notes), Tsunami (35); 8 diagrams |
-| Physics and Math | 328 | MileDown (292 notes), Tsunami (3); 6 diagrams |
-| Psych-Soc › Sensation and Perception (6A) | 358 | MrPankow (204 notes), MileDown (28), Bouras (17); 6 diagrams |
-| Psych-Soc › Cognition and Consciousness (6B) | 538 | MrPankow (325 notes), MileDown (27), Bouras (23), Tsunami (2); 7 diagrams |
+| Biochemistry | 514 | MileDown (512 notes), Tsunami (1) |
+| Biology | 602 | MileDown (599 notes), Tsunami (1) |
+| Essential Equations | 177 | MileDown (91 notes), Tsunami (45) |
+| General Chemistry | 250 | MileDown (244 notes), Tsunami (4) |
+| Organic Chemistry | 356 | MileDown (283 notes), Tsunami (35) |
+| Physics and Math | 300 | MileDown (292 notes), Tsunami (3) |
+| Psych-Soc › Sensation and Perception (6A) | 298 | MrPankow (204 notes), MileDown (28), Bouras (17) |
+| Psych-Soc › Cognition and Consciousness (6B) | 496 | MrPankow (325 notes), MileDown (27), Bouras (23), Tsunami (2) |
 | Psych-Soc › Emotion and Stress (6C) | 123 | MrPankow (64 notes), MileDown (18), Bouras (11) |
-| Psych-Soc › Brain, Personality and Disorders (7A) | 641 | MrPankow (375 notes), MileDown (48), Bouras (29); 2 diagrams |
+| Psych-Soc › Brain, Personality and Disorders (7A) | 620 | MrPankow (375 notes), MileDown (48), Bouras (29) |
 | Psych-Soc › Social Influence (7B) | 101 | MrPankow (66 notes), MileDown (3), Bouras (2) |
-| Psych-Soc › Learning and Attitude Change (7C) | 136 | MrPankow (79 notes), Bouras (7); 1 diagram |
-| Psych-Soc › Identity and Social Perception (8A–8B) | 188 | MrPankow (113 notes), MileDown (9), Bouras (5); 1 diagram |
+| Psych-Soc › Learning and Attitude Change (7C) | 129 | MrPankow (79 notes), Bouras (7) |
+| Psych-Soc › Identity and Social Perception (8A–8B) | 179 | MrPankow (113 notes), MileDown (9), Bouras (5) |
 | Psych-Soc › Social Interactions (8C) | 149 | Bouras (121 notes), MileDown (28) |
-| Psych-Soc › Social Structure and Culture (9A) | 120 | Bouras (98 notes), MileDown (18); 1 diagram |
+| Psych-Soc › Social Structure and Culture (9A) | 116 | Bouras (98 notes), MileDown (18) |
 | Psych-Soc › Demographics and Inequality (9B–10A) | 130 | Bouras (106 notes), MileDown (21), Tsunami (2) |
-| Psych-Soc › Research Methods and Statistics | 116 | Bouras (102 notes), MrPankow (2), Tsunami (1); 1 diagram |
+| Psych-Soc › Research Methods and Statistics | 107 | Bouras (102 notes), MrPankow (2), Tsunami (1) |
 
-"Diagrams" are image-occlusion notes (below). The psych/soc subdecks are named by topic. The AAMC content category of each is in brackets, and every psych/soc card also
+The psych/soc subdecks are named by topic. The AAMC content category of each is in brackets, and every psych/soc card also
 carries it as the tag `Tsunami::Psych_Soc::<category>`.
 
 ## How it was made
@@ -61,14 +61,10 @@ carries it as the tag `Tsunami::Psych_Soc::<category>`.
   beside them: which equation to use, how a quantity scales (doubling r quarters F), and units.
 - **Reactions both ways.** Organic reactions are asked from reagent to product and back, and look-alike reagents are
   contrasted side by side.
-- **Image occlusion.** 98 labelled diagrams (715 cards) use Anki's built-in `Image Occlusion` note type, restyled to
-  match: each card hides one label with the others covered too. They sit in the subdeck of the cards that use the
-  same picture.
 
 ## Changes since 1.0
 
-- 91 new notes: equation cue, scaling and units cards, reaction cards, and 3 psych/soc cards; plus the 98
-  image-occlusion diagrams.
+- 91 new notes: equation cue, scaling and units cards, reaction cards, and 3 psych/soc cards.
 - 263 notes edited: the equation and reaction rewrites, and wording fixes made while studying (clearer definitions
   in demographics and social structure, the fertilization and reflex-arc steps, neurotransmitter sources, infant
   reflexes, radioactive decay).
@@ -80,13 +76,12 @@ carries it as the tag `Tsunami::Psych_Soc::<category>`.
 - `Tsunami::<Subject>::<Topic>` — topic tags inherited from MileDown (for example `Tsunami::Biology::Immune_System`).
 - `Tsunami::Psych_Soc::<category>` — AAMC category of each psych/soc card (`6A` … `9B_10A`, `Research`).
 - `source::MileDown`, `source::MrPankow`, `source::Bouras` — which deck the card came from; `source::Tsunami` — the few cards written new for this deck.
-- `Tsunami::Equations::structure|cue|scaling|units` and `Tsunami::Reactions::two_way|contrast` — the equation and reaction cards; `Tsunami::IO` — the image-occlusion diagrams.
+- `Tsunami::Equations::structure|cue|scaling|units` and `Tsunami::Reactions::two_way|contrast` — the equation and reaction cards.
 - `Tsunami::corrected` marks the 255 cards changed by a content or spelling correction; `Tsunami::flagged` marks the 30 doubtful ones.
 
 ## Files
 
-- [`deck/tsunami.jsonl`](deck/tsunami.jsonl): every `Tsunami` note as text (one JSON object per line), so changes show up in diffs.
-- [`deck/image_occlusion.jsonl`](deck/image_occlusion.jsonl): the image-occlusion notes (occlusion masks, image, header, back extra, comments).
+- [`deck/tsunami.jsonl`](deck/tsunami.jsonl): every note as text (one JSON object per line), so changes show up in diffs.
 - [`CORRECTIONS.md`](CORRECTIONS.md): every content correction, with the reason.
 
 ## Found a mistake?
